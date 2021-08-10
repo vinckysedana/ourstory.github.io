@@ -1,0 +1,318 @@
+b<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Our Story | Vincky & Juli</title>
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  </head>
+  <body id="home">
+    <audio id="Audio" src="music/music.mp3"></audio>
+    <script type="text/javascript">
+    var myAudio = document.getElementById("Audio");
+    var isPlaying = false;
+    function togglePlay(){
+      myAudio.play();
+      terakhir = document.querySelector('#box');
+      terakhir.classList.add('hide');
+    }
+    </script>
+    <!-- Audio -->
+    <!-- <audio autoplay src="music/music.mp3" type="audio/mpeg"></audio> -->
+    <!-- End Audio -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">VJ Love Story</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#memories">Memories</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-3 mb-3 mt-5">
+            <img src="img/vin.jpg" alt="Vincky Sedana" width="200" class="rounded-circle img-thumbnail" />
+            <h1 class="display-4 fs-3 fw-bold">Vincky Sedana</h1>
+            <p class="lead fs-5">Incu</p>
+          </div>
+          <div class="col-md-4 mb-3 mt-5">
+            <div>
+              <img src="img/vj.jpg" alt="Vincky &" width="200" class="rounded-circle img-thumbnail" />
+            </div>
+            <div id="box">
+              <div class="id mt-4">
+                <a onclick="togglePlay()"><button type="button" class="lead btn btn-primary">Klik me <i class="bi bi-heart-fill text-danger"></i></button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3 mt-5">
+            <img src="img/jul.jpg" alt="Juliani" width="200" class="rounded-circle img-thumbnail" />
+            <h1 class="display-4 fs-3 fw-bold">Juliani</h1>
+            <p class="lead fs-5">Juley</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="10"
+          d="M0,160L60,133.3C120,107,240,53,360,37.3C480,21,600,43,720,85.3C840,128,960,192,1080,197.3C1200,203,1320,149,1380,122.7L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Us</h2>
+          </div>
+        </div>
+        <div class="fs-5 row justify-content-lg-center fs-5 text-lg-start">
+          <div class="col-md-5">
+            <p>
+              Namaku adalah Vincky dan dia adalah Juli. Kami berdua dipertemukan Tuhan di sebuah tempat menempuh ilmu pengetahuan di bumi ini, tempat itu adalah SMAK Harapan Denpasar. Kami saling kenal dengan cara yang sangat amat lucu, tanpa terencana dan tiba-tiba sudah menjalin hubungan spesial ini saja. Aku anak pertama dan dia adalah anak terakhir, bisa dibayangkan bukan seberapa sabarnya menjadi diriku? hahaha.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <p>
+              Tepat hari ini, 6 tahun yang lalu pada tanggal 11 Agustus 2015 aku menyatakan cintaku kepadanya dan mulai hari itu kami berdua terus bersama sampai detik ini. Sempat mengalami yang namanya putus nyambung, dan bertengkar hampir setiap hari, ya walaupun kadang masalahnya tidak jelas hahaha, tapi kami masih tetap bisa bersama sampai hari ini. Aku tidak tahu kami masih bisa bersama terus atau tidak, tapi jika kau tanya aku tentu jawabanku mau terus bersamanya. I love u, ya I just wanna say that.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="10"
+          d="M0,160L40,181.3C80,203,160,245,240,240C320,235,400,181,480,144C560,107,640,85,720,106.7C800,128,880,192,960,186.7C1040,181,1120,107,1200,74.7C1280,43,1360,53,1400,58.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End About -->
+
+    <!-- Gallery -->
+    <section id="memories">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Our Memories</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/1.jpg" class="card-img-top" alt="Gallery 1" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  SMAK Harapan Denpasar<a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample1">
+                  <div class="card card-body">Ini adalah tempat pertama kali kami bertemu, Kelas X MIPA 3 SMAK Harapan Denpasar. Di kelas ini kami memulai semuanya. Aku sampai tidak tahu apa yang harus kubicarakan tentang tempat ini hahaha, intinya sekolah Harapan unggul mutu, melayani sesama dengan kasih.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/2.jpg" class="card-img-top" alt="Gallery 2" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Pulau Padar <a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample2">
+                  <div class="card card-body">Tempat ini adalah salah satu spot di Labuan Bajo, tepatnya bernama Pulau Padar. Aku sangat ingat di tempat ini kami harus naik tangga yang lumayan jauh untuk mendapatkan view terbaiknya.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/3.jpg" class="card-img-top" alt="Gallery 3" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Pizza Hut <a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample3">
+                  <div class="card card-body">Tempat ini adalah salah satu restoran cepat saji yang menyediakan beberapa menu makanan dengan menu utamanya adalah pizza, pizzanya enak udah itu aja jangan banyak tanya.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/4.jpg" class="card-img-top" alt="Gallery 4" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Pink Beach<a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample4">
+                  <div class="card card-body">
+                    Tempat ini adalah pantai yang sangat indah dengan pasir pink yang ada di pinggirnya, disini kami berenang lebih ke dalam untuk melihat terumbu karang yang indah dan ikan-ikan yang cantik, lihatlah pelampung perempuan itu kebesaran sampai sejajar dengan kepalanya.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/5.jpg" class="card-img-top" alt="Gallery 5" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Montana Del Cafe <a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample5">
+                  <div class="card card-body">
+                    Tempat ini adalah salah satu destinasi terkenal yang terletak di Kintamani. Sebenarnya rasanya standar, mirip-mirip dengan beberapa tempat ngopi yang pernah kami kunjungi, tujuan kami kesini bukan untuk ngopi, tapi untuk memuaskan hasrat foto perempuan yang ada di foto itu.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/6.jpg" class="card-img-top" alt="Gallery 6" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Danau Tamblingan <a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample6">
+                  <div class="card card-body">
+                    Tempat ini adalah salah satu camp area yang ada di Bali. Sebenarnya hari itu aku sangat sibuk karena ada ujian yang harus kukerjakan, tapi karena sayang akhirnya kuturuti untuk ikut camp pada hari itu, walaupun aku harus menyusul dengan motor karena tidak bisa bareng.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/7.jpg" class="card-img-top" alt="Gallery 7" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Pengembak Beach <a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample7">
+                  <div class="card card-body">
+                    Di tempat ini kelas kami yaitu MIPA 3 melakukan foto shot untuk buku tahunan sekolah kami, kelas kami menggunakan tema bohemian. Hari itu sangat menyenangkan, benar-benar hari yang sangat menyenangkan. Di foto laki-laki itu membawa gitar tapi tidak bisa memainkannya.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/8.jpg" class="card-img-top" alt="Gallery 8" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Geger Beach <a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample8">
+                  <div class="card card-body">
+                    Hari itu kami mengikuti salah satu program dari pemerintah Badung yaitu Explore Badung. Salah satu tempat yang dikunjungi ya pantai geger ini, foto ini kami take berulang kali karena perempuan itu kerjaannya ketawa terus, tidak ada angin tidak ada hujan pokoknya ketawa terus, untung tukang fotonya sabar, big thanks to kak paulmanik hehe.
+                  </div>
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/9.jpg" class="card-img-top" alt="Gallery 9" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Bali Safari <a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample9">
+                  <div class="card card-body">
+                    Ini adalah salah satu tempat wisata yang bernama Bali Safari. Banyak hewan yang ucul kalau kata dia, padahal mah aku tau alasannya dia kesana mau nyari keluarganya (orang utan hehe), kami pergi dari pagi dan pulang sore, aku juga tidak tahu kenapa bisa lama amat yak. intinya disini sangat seruuuuuu, sudah ada video juga yang aku buat untuk momen disini hehe.
+                  </div>
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/10.jpg" class="card-img-top" alt="Gallery 10" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Suluban Beach <a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample10">
+                  <div class="card card-body">
+                    Ini adalah salah satu pantai yang terkenal di Bali. Foto ini diambil 6 tahun yang lalu, ya memang sudah lama sekali. Ini adalah pantai pertama yang kami kunjungi bersama, sampai sekarang sudah banyak sekali pantai yang telah kami kunjungi sih, tapi pantai ini meninggalkan kenangan yang sangat amat berharga buat kami, kami dulu kesini berempat, eh sekarang yang dua udah beda jalur hehe.
+                  </div>
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Gallery/11.jpg" class="card-img-top" alt="Gallery 11" />
+              <div class="card-body">
+                <p class="card-text fs-5">
+                  Gembleng Waterfall <a class="btn btn-outline-info btn-sm" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample11" style="margin-left: 5%">KLIK</a>
+                </p>
+                <div class="collapse" id="collapseExample11">
+                  <div class="card card-body">
+                    Ini adalah tempat yang paling baru kami kunjungi, namanya adalah Gembleng Waterfall. Tempat ini sungguh indah terlihat dari atas. Ini adalah satu-satunya air terjun yang jalurnya sangat mudah, kemarin kami kesini ketika sedang direnovasi sih, mungkin sekarang sudah selesai dan menjadi lebih bagus. Di tempat ini banyak kodoknya hati-hati hehe.
+                  </div>
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="10"
+          d="M0,128L80,133.3C160,139,320,149,480,165.3C640,181,800,203,960,176C1120,149,1280,75,1360,37.3L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Gallery -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center pb-5">
+      <p>
+        Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://instagram.com/vinckysdna/" class="text-white fw-bold">Vincky Sedana</a>
+        <i class="em em-hearts" aria-role="presentation" aria-label="BLACK HEART SUIT"></i>
+      </p>
+    </footer>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
